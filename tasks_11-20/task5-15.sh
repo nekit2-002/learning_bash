@@ -11,3 +11,5 @@ then
 else 
     echo "$Y is not greater than 7"
 fi
+
+exit 0

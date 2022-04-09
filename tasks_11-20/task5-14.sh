@@ -8,3 +8,5 @@ then
 else
     echo "No"
 fi
+
+exit 0

@@ -15,3 +15,5 @@ then
 else 
     echo "No such file or directory."
 fi
+
+exit 0
