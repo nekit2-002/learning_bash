@@ -65,3 +65,5 @@ while [[ $choice != q ]]; do
     echo "Input the option you wanna use:"
     read choice
 done
+
+exit 0
